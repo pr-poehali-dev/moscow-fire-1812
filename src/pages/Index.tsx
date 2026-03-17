@@ -792,7 +792,8 @@ export default function Index() {
               </div>
               <div className="space-y-5">
                 {[
-                  { icon: "MapPin", text: "Нижневартовск, Кузоваткина 1, строение 1" },
+                  { icon: "MapPin", text: "ул. Кузоваткина 1, строение 1, Нижневартовск" },
+                  { icon: "MapPin", text: "ул. Заводская, д. 26, кв. 75, Нижневартовск, 628621" },
                   { icon: "Phone", text: "+7 (982) 509-46-13", href: "tel:+79825094613" },
                   { icon: "Mail", text: "info@yuenp.ru", href: "mailto:info@yuenp.ru" },
                 ].map((c, i) => (
